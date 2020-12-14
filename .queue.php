@@ -697,11 +697,11 @@ $tableTheme = (FM_THEME == "dark") ? "text-white bg-dark table-dark" : "bg-white
                 <tr>
                     <?php if (!FM_READONLY): ?>
                     <th style="width:3%" class="custom-checkbox-header">
-                        <div class="custom-control custom-checkbox">
+                        <!-- <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="js-select-all-items"
                                 onclick="checkbox_toggle()">
                             <label class="custom-control-label" for="js-select-all-items"></label>
-                        </div>
+                        </div> -->
                     </th><?php endif;?>
                     <th><?php echo lng('Name') ?></th>
                     <th><?php echo lng('Size') ?></th>
@@ -752,11 +752,11 @@ foreach ($folders as $f) {
             <tr>
                 <?php if (!FM_READONLY): ?>
                 <td class="custom-checkbox-td">
-                    <div class="custom-control custom-checkbox">
+                    <!-- <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="<?php echo $ii ?>" name="file[]"
                             value="<?php echo fm_enc($f) ?>">
                         <label class="custom-control-label" for="<?php echo $ii ?>"></label>
-                    </div>
+                    </div> -->
                 </td><?php endif;?>
                 <td>
                     <div class="filename"><a href="?p=<?php echo urlencode(trim(FM_PATH . '/' . $f, '/')) ?>"><i
@@ -811,11 +811,11 @@ foreach ($files as $f) {
             <tr>
                 <?php if (!FM_READONLY): ?>
                 <td class="custom-checkbox-td">
-                    <div class="custom-control custom-checkbox">
+                    <!-- <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="<?php echo $ik ?>" name="file[]"
                             value="<?php echo fm_enc($f) ?>">
                         <label class="custom-control-label" for="<?php echo $ik ?>"></label>
-                    </div>
+                    </div> -->
                 </td><?php endif;?>
                 <td>
                     <div class="filename">
